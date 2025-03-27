@@ -1,0 +1,32 @@
+{
+    "name": "sonleu/id-connect",
+    "description": "ID API integration with Laravel by Son Leu",
+    "keywords": [
+        "id-connect",
+        "id-connect-util",
+        "sonleu"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Son Leu",
+            "email": "boyvn2911@gmail.com",
+            "role": "developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SonLeu\\IDConnect\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6|^7"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SonLeu\\IDConnect\\Providers\\IDConnectServiceProvider"
+            ]
+        }
+    }
+}
