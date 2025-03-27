@@ -1,5 +1,5 @@
 {
-    "name": "sonleu/id-connect",
+    "name": "hoandv/id-connect",
     "description": "ID API integration with Laravel by Son Leu",
     "keywords": [
         "id-connect",
@@ -9,8 +9,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Son Leu",
-            "email": "boyvn2911@gmail.com",
+            "name": "Hoan Do",
+            "email": "vanhoan90it6@gmail.com",
             "role": "developer"
         }
     ],
